@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link href="test-style.css" rel="stylesheet">
+   <title>Document</title>
+</head>
+<body>
+<div class="conteiner">
+   <div class="header">
+   <h1>Lorem ipsum dolor</h1>
+   </div>
+   <div class="paragraf">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab maxime, molestias quisquam sunt atque voluptatibus tenetur laudantium ut pariatur, fugit commodi suscipit illo, distinctio ipsa iure corporis accusantium iste recusandae.</p>
+   </div>
+
+
+<table>
+   <tr>
+      <th>#</th>
+      <th>Name</th>
+      <th>Email</th>
+   </tr>
+   <tr>
+      <td rowspan="3">1</td>
+      <td>Denis</td>
+      <td>denis@gmail.com</td>
+   </tr>
+   <tr>
+      <td>Helen</td>
+      <td rowspan="2">helen@gmail.com</td>
+   </tr>
+   <tr>
+      <td>Martin</td>
+   </tr>
+   <tr>
+      <td colspan="3">No Data</td>
+   </tr>
+   <tr>
+      <td>2</td>
+      <td>Vika</td>
+      <td>vika@gmail.com</td>
+   </tr>
+   <tr>
+      <td>3</td>
+      <td>Dima</td>
+      <td>dima@gmail.com</td>
+   </tr>
+</table>
+</div>
+
+</body>
+</html>
