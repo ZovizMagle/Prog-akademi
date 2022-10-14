@@ -1,0 +1,64 @@
+a {
+   display: inline-block;
+}
+
+.container {
+   max-width: 80%;
+   border: 1px solid #c6c6c6;
+   border-radius: 0.3rem;
+   margin-top: 1rem;
+}
+.container-sprite {
+   display: flex;
+   justify-content: space-between;
+   margin: 5rem;
+}
+
+.sprite-icon {
+   width: 3.5rem;
+   height: 3.5rem;
+   background: url("./prog-image/sprites-social-media.png");
+   cursor: pointer;
+   border: 1px solid #c6c6c6;
+   border-radius: .3rem;
+}
+
+.sprite-icon-facebook {
+   background-position: -32px 201px
+}
+
+.sprite-icon-facebook:hover {
+   background-position: -32px 131px;
+}
+
+.sprite-icon-facebook:active {
+   background-position: -32px 301px;
+}
+
+.sprite-icon-youtube {
+   background-position: 64px 446px;
+}
+
+.sprite-icon-youtube:hover {
+   background-position: 64px 373px;
+}
+
+.sprite-icon-youtube:active {
+   background-position: 64px 545px;
+}
+
+.sprite-icon-skype {
+   background-position: -538px 204px;
+}
+
+.sprite-icon-skype:hover {
+   background-position: -538px 375px;
+}
+
+.sprite-icon-skype:active {
+   background-position: -538px 303px;
+}
+
+.radio {
+   display: inline-block;
+}
