@@ -1,0 +1,21 @@
+.product .card-img-top {
+   max-height: 15rem;
+   width: auto;
+   max-width: 80%;
+}
+.card {
+   width: 17rem;
+   border: none;
+   padding: 0rem 2rem 0rem 2rem;
+}
+.card-price {
+   color: red;
+}
+.card-price::before{
+   content: '$';
+   color: red;
+}
+.row {
+   margin-right: 0;
+   margin-left: 0;
+}
