@@ -1,0 +1,71 @@
+.add-list {
+   cursor: pointer;
+}
+.add-list__popup {
+   width: 16.7rem;
+   height: 11rem;
+   background: #FFFFFF;
+   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.05);
+   border-radius: 10px;
+   position: relative;
+}
+.add-list__popup-colors {
+   width: 15rem;
+   margin: 0 auto;
+}
+.add-list__popup-colors > .badge {
+   width: 15px;
+   height: 15px;
+}
+.button {
+   width: 12.5rem;
+   height: 2rem;
+   margin: 18px 25px;
+   background: #4DD599;
+   border-radius: 4px;
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: .9rem;
+   line-height: 1rem;
+   text-align: center;
+   letter-spacing: 0.15px;
+   color: #FFFFFF;
+   cursor: pointer;
+}
+.button:hover {
+background: #219764;
+}
+.button:active {
+background: #1a774f;
+}
+.button:disabled {
+   background: #d8d8d8;
+}
+.button--grey {
+   width: 90px;
+   height: 2rem;
+   background: #F4F6F8;
+   border-radius: 4px;
+   font-weight: 600;
+   font-size: 14px;
+   line-height: 17px;
+   text-align: center;
+   letter-spacing: 0.15px;
+   color: #9C9C9C;
+}
+.button--grey:hover {
+   color: #7a7979;
+   background:#acabab
+}
+.add-list__popup-close-btn {
+   position: absolute;
+   right: -5px;
+   top: -5px;
+   cursor: pointer;
+}
+.add-list__popup-close-btn:hover {
+   opacity: .5;
+}
+.add-list__popup-close-btn:active {
+   opacity: 1;
+}
