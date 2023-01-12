@@ -1,0 +1,44 @@
+.todo__list:first-child {
+   margin-bottom: 30px;
+}
+.todo__item {
+   display: flex;
+   align-items: center;
+   padding: 10px 12px;
+   margin-bottom: 5px;
+   cursor: pointer;
+}
+.todo__item:hover {
+   background: rgba(255, 255, 255, 0.7);
+}
+.active {
+   background: #FFFFFF;
+   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.04);
+   border-radius: 4px;
+}
+i {
+   margin-right: 10px;
+   display: inline-flex;
+}
+
+.list__add-button {
+   color: #767676;
+   opacity: .4;
+}
+.list__add-button:hover {
+   opacity: 1;
+}
+.list__name {
+   flex: 1;
+}
+.list__remove-icon {
+   opacity: .1;
+}
+.list__remove-icon:hover {
+   opacity: 1;
+}
+
+
+
+
+
